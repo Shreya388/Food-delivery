@@ -1,0 +1,8 @@
+.cover{
+    background-image: url(cover.js);
+    height: 500pt;
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
