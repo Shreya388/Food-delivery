@@ -20,7 +20,7 @@ const Team = (props) => {
 
 const Gallery = () => {
     return ( 
-        <div style={{marginTop:"", background: "rgb(26 26 26)", paddingTop: "100pt", paddingBottom: "100pt"}}>
+        <div style={{marginTop:"", background: "rgb(26 26 26)", paddingTop: "150pt", paddingBottom: "150pt"}}>
             <Container className="text-center">
             <Row>
                <Team alte ="ff" source={one} name="Jenny Smith" tag="Manager" />

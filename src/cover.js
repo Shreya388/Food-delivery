@@ -24,7 +24,7 @@ const Cover = () => {
         <div className="col-md-12" style={{background: "black"}}>
             
             <Navbar />
-            <div className="container-fluid">
+            <div className="container-fluid"><br /><br />
             <Row>
             <Col>
             
@@ -34,7 +34,7 @@ const Cover = () => {
                     
                 <img
                 className="d-block w-100"
-                src={cover}
+                src={cover2}
                 alt="First slide"
                 />
                 </Carousel.Item>
@@ -42,18 +42,11 @@ const Cover = () => {
                 <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src={cover2}
+                src={cover3}
                 alt="Second slide"
                 />
                 </Carousel.Item>
                 
-                <Carousel.Item>
-                <img
-                className="d-block w-100"
-                src={cover3}
-                alt="Third slide"
-                />
-                </Carousel.Item>
             </Carousel>
             
             </Col>
@@ -61,11 +54,11 @@ const Cover = () => {
             <Col>
                 <div style={{background:"black"}}>
                     <Container>
-                    <br /><h4 className="display-3 bold mt-4 text-white">Order Now</h4><br /><br />
+                    <br /><h4 className="display-3 bold mt-4 text-white">Fooduo</h4><br />
                     <input type="text" placeholder="Choose your location" style= {{padding: "13pt 26pt", border: "none", borderRadius: "10pt 0pt 0pt 10pt"}} />
                     <button className="button">Find Food</button><br /><br />
-                    <p className="display-6" style={{color: "silver"}}>We are available on cities like:</p>
-                    <p style={{color: "white"}}>Mumbai, Bangalore, Chennai, Delhi, Hydrabad etc.</p>
+                    <p className="" style={{color: "silver"}}>We are available on cities like:<p style={{color: "white", fontSize: "13px"}}>Mumbai, Bangalore, Chennai, Delhi, Hydrabad and more.</p></p>
+                    
                     </Container>
                 </div>
             </Col>

@@ -3,7 +3,7 @@ import {Nav, Navbar, Container, NavDropdown} from "react-bootstrap";
 
 const Topbar = () => {
     return (
-        <Navbar expand="lg" variant="dark" style={{padding: "13pt", borderBottom: "1pt solid #444444"}}>
+        <Navbar className="fixed-top" expand="lg" variant="dark" style={{background: "rgb(0 0 0 / 79%)", boxShadow: "0pt 1pt 2pt 0pt black" ,backdropFilter: "blur(8px)", padding: "13pt", borderBottom: "1pt solid rgb(44 44 44)"}}>
         <Container>
             <Navbar.Brand href="#home">Fooduo</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

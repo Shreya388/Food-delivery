@@ -5,12 +5,12 @@ import Fork from "./fork.png";
 
 const sec3 = () => {
     return ( 
-        <div style={{marginTop:"", background: "rgb(16 16 16)", paddingTop: "100pt", paddingBottom: "100pt"}}>
+        <div style={{marginTop:"", background: "rgb(16 16 16)", paddingTop: "150pt", paddingBottom: "150pt"}}>
             <Container>
             <Row>
             <Col>
             <Container>
-                <h1 className="display-6 mt-4 text-white">Our Menu</h1><br />
+                <h1 className="display-6 mt-4 text-white">About</h1><br />
                 <p className="text-white">sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
             </Container>
             </Col>
