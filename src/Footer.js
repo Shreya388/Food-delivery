@@ -18,7 +18,7 @@ const Section = (props) => {
 const Footer = () => {
     return (
       <div className="Footer">
-        <div style={{background: "black", paddingTop: "80pt", paddingBottom: "60pt"}}>
+        <div style={{background: "black", paddingTop: "140pt", paddingBottom: "50pt"}}>
           <Container>
             
             

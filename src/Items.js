@@ -42,11 +42,7 @@ const FoodItems = () => {
                 <Cards name="Noodles" image={four} />
                 <Cards name="Dessert" image={five} />
                 <Col>
-                <div class=" text-center text-white" style={{background: "rgb(0 0 0 / 70%)"}}>
-                    <Container className="" style={{border: "1pt solid #222222", background: "rgb(0 0 0 / 80%)"}}>
-                <p className="navbar-brand">gdfgs</p>
-                    </Container>
-                </div>
+                
                 </Col>
             </Row><br />
         </Container>

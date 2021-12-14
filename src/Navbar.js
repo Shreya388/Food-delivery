@@ -1,5 +1,5 @@
 import React from "react";
-import {Nav, Navbar, Container, NavDropdown} from "react-bootstrap";
+import {Nav, Navbar, Container, NavDropdown, Button} from "react-bootstrap";
 
 const Topbar = () => {
     return (
@@ -22,6 +22,9 @@ const Topbar = () => {
                 </NavDropdown>
             </Nav>
             </Navbar.Collapse>
+
+            <Button className="btn btn-dark">Login</Button><li />
+            <Button className="btn btn-dark">Sign Up</Button>
         </Container>
         </Navbar>
     )

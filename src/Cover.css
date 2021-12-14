@@ -1,8 +1,8 @@
-.cover{
-    background-image: url(cover.js);
-    height: 700pt;
-    position:absolute;
-    top: 0;
-    right: 0;
-    left: 0;
+.cover_img{
+    background-image: url(cover3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400pt;
+    
+
 }
