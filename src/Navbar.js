@@ -21,10 +21,8 @@ const Topbar = () => {
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
+            <Button className="btn btn-dark">Login</Button>
             </Navbar.Collapse>
-
-            <Button className="btn btn-dark">Login</Button><li />
-            <Button className="btn btn-dark">Sign Up</Button>
         </Container>
         </Navbar>
     )

@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 const Sec2 = () => {
     return ( 
-        <div style={{marginTop:"", background: "rgb(235 7 7 / 88%)", paddingTop: "200pt", paddingBottom: "200pt"}}>
+        <div style={{marginTop:"", background: "rgb(235 7 7 / 88%)", boxShadow:"1pt 1pt 4pt 2pt #1e1e1ee6", paddingTop: "200pt", paddingBottom: "200pt"}}>
             <div className="container-fluid text-center" >
             <Container>
                 <h1 className="display-6 mt-4 text-white">qui dolorem ipsum quia</h1>
