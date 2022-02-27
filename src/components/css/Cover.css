@@ -1,0 +1,29 @@
+.cover_img{
+    background-image: url(cover2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500pt;
+}
+
+.cover_overlay{
+    background: rgba(0, 0, 0, 0.205);
+    height: 500pt;
+    
+}
+
+.button{
+    background: rgb(235 7 7);
+    padding: 13pt;
+    border: none;
+    color: white;
+    border-radius: 0pt 10pt 10pt 0pt;
+}
+
+
+#input{
+    padding: 13pt 16pt; width: 200pt; border: none; border-radius: 10pt 0pt 0pt 10pt;
+}
+
+.tag{
+    color:#565656;
+}

@@ -1,0 +1,16 @@
+.Link{
+    color: rgb(228, 228, 228);
+    font-size: 12pt;
+}
+
+.nav_link{
+    color:white;
+}
+
+.footer_div{
+    background: #121212; padding-top: 150pt; padding-bottom: 130pt;
+}
+
+#navbar{
+    background: black; box-shadow: 0pt 1pt 2pt 0pt black; padding: 13pt; border-bottom: 1pt solid rgb(44 44 44) 
+}

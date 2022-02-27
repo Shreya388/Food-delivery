@@ -1,10 +1,10 @@
 import './App.css';
-import Cover from "./cover";
-import Sec2 from './section2';
-import Sec3 from './section3';
-import Team from './Team';
-import FoodItems from './Items';
-import Footer from './Footer';
+import Cover from "./components/cover";
+import Sec2 from './components/section2';
+import About from './components/About';
+import Team from './components/Team';
+import FoodItems from './components/Items';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Cover />
       <Sec2 />
       <FoodItems />
-      <Sec3 />
       <Team />
+      <About />
       <Footer />
     </>
   );
