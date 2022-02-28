@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import one from "./img/one.jpg";
 import two from "./img/two.jpg";
-import three from "./img/three.jpg";
 import four from "./img/four.jpg";
 import five from "./img/five.jpg";
 
@@ -36,7 +35,7 @@ const FoodItems = () => {
                 <Row>
                     <Cards name="Curry" image={one} />
                     <Cards name="Pizza" image={two} />
-                    <Cards name="Burger" image={three} />
+                    <Cards name="Burger" image={four} />
                 </Row><br />
                 <Row>
                     <Cards name="Noodles" image={four} />
